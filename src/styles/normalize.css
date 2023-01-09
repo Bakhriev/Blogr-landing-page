@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: calc(1em + 0.725rem);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  -webkit-tap-highlight-color: black;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+/* //  * Remove the border on images inside links in IE 10. */
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+::placeholder {
+  color: unset;
+}
