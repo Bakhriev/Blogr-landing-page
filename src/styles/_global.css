@@ -1,0 +1,37 @@
+/* Variables */
+:root {
+  --lightRed: hsl(356, 100%, 66%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* Container */
+.container {
+  margin: 0 auto;
+
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+/* btn */
+.btn {
+  display: inline-block;
+  padding: 5px 25px;
+
+  white-space: nowrap;
+  border-radius: 20px;
+  color: var(--white);
+}
+
+/* primary Btn */
+.primary-btn {
+
+  color: var(--lightRed);
+  background-color: var(--white);
+}
+
+/* btn Hover */
+.btn-hover {
+  background-color: var(--white);
+  color: var(--lightRed);
+}

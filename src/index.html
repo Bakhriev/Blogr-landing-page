@@ -2,91 +2,104 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="./images/favicon-32x32.png"
-		/>
 		<link rel="stylesheet" href="./styles/main.css" />
-		<title>Frontend Mentor | [Blogr]</title>
+		<title>Document</title>
 	</head>
 	<body>
-		<header class="header">
-			<div class="container headerContainer">
-				<div class="headerTop">
-					<div class="headerLogo">
-						<a href="#">
-							<img src="./images/logo.svg" alt="logo" />
-						</a>
-					</div>
-					<div class="burger"></div>
-					<nav class="nav">
-						<ul class="menu">
-							<ul class="menuItem">
-								<button class="dropdownToggle">Product</button>
-								<svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
-									<path
-										fill="none"
-										stroke="#FFF"
-										stroke-width="2"
-										opacity=".75"
-										d="M1 1l4 4 4-4"
-									/>
-								</svg>
-								<div class="subMenu">
-									<a href="#" class="subMenuItem">Product1</a>
-									<a href="#" class="subMenuItem">Product2</a>
-									<a href="#" class="subMenuItem">Product3</a>
-								</div>
-							</ul>
-							<ul class="menuItem">
-								<button class="dropdownToggle">Company</button>
-								<svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
-									<path
-										fill="none"
-										stroke="#FFF"
-										stroke-width="2"
-										opacity=".75"
-										d="M1 1l4 4 4-4"
-									/>
-								</svg>
-								<div class="subMenu">
-									<a href="#" class="subMenuItem">Company1</a>
-									<a href="#" class="subMenuItem">Company2</a>
-									<a href="#" class="subMenuItem">Company3</a>
-								</div>
-							</ul>
-							<ul class="menuItem">
-								<button class="dropdownToggle">Connect</button>
-								<svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
-									<path
-										fill="none"
-										stroke="#FFF"
-										stroke-width="2"
-										opacity=".75"
-										d="M1 1l4 4 4-4"
-									/>
-								</svg>
-								<div class="subMenu">
-									<a href="#" class="subMenuItem">Contact</a>
-									<a href="#" class="subMenuItem">Newsletter</a>
-									<a href="#" class="subMenuItem">Linkedin</a>
-								</div>
-							</ul>
-						</ul>
-					</nav>
-					<div class="headerButtons">
-						<button class="btn loginBtn">Login</button>
-						<button class="btn signUpBtn">Sign Up</button>
+		<div class="wrapper">
+			<!-- Mob-Menu -->
+			<div class="popup">
+				<div class="popup-content-wrapper">
+					<ul class="popup-menu">
+						<li class="popup-menu__dropdown">
+							<span>Product</span>
+							<div class="menu-sub__items">
+								<a href="#">Item1</a>
+							</div>
+						</li>
+						<li class="popup-menu__dropdown">
+							<span>Product</span>
+							<div class="menu-sub__items">
+								<a href="#">Item1</a>
+							</div>
+						</li>
+						<li class="popup-menu__dropdown">
+							<span>Product</span>
+							<div class="menu-sub__items">
+								<a href="#">Item1</a>
+							</div>
+						</li>
+					</ul>
+					<div class="line"></div>
+					<div class="mob-buttons">
+						<a href="#" class="btn popup-login">Login</a>
+						<a href="#" class="btn popup-sign-up">Sign Up</a>
 					</div>
 				</div>
-				<div class="headerContent"></div>
 			</div>
-		</header>
-		<main class="main"></main>
-		<footer class="footer"></footer>
+			<!-- Mob-Menu-End -->
+
+			<!-- HEader -->
+			<header class="header">
+				<div class="container header-container">
+					<div class="logo">
+						<a href="#">
+							<img src="./images/logo.svg" alt="click to refresh" />
+						</a>
+					</div>
+					<nav>
+						<ul class="menu">
+							<li>
+								<div class="dropdown" data-dropdown>
+									<button class="dropdown-toggle" data-dropdown-button>
+										Product
+									</button>
+									<ul class="sub-menu">
+										<li class="sub-menu__item">item1</li>
+										<li class="sub-menu__item">item2</li>
+										<li class="sub-menu__item">item3</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown" data-dropdown>
+									<button class="dropdown-toggle" data-dropdown-button>
+										Product
+									</button>
+									<ul class="sub-menu">
+										<li class="sub-menu__item">item1</li>
+										<li class="sub-menu__item">item2</li>
+										<li class="sub-menu__item">item3</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown" data-dropdown>
+									<button class="dropdown-toggle" data-dropdown-button>
+										Product
+									</button>
+									<ul class="sub-menu">
+										<li class="sub-menu__item">item1</li>
+										<li class="sub-menu__item">item2</li>
+										<li class="sub-menu__item">item3</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<div class="header-buttons">
+						<a href="#" class="btn">Login</a>
+						<a href="#" class="btn primary-btn">Sign Up</a>
+					</div>
+					<div class="burger">
+						<span></span>
+					</div>
+				</div>
+			</header>
+			<!-- Header-end -->
+		</div>
 
 		<script src="./script/main.js"></script>
 	</body>
