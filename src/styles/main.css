@@ -292,6 +292,11 @@ body {
 
 .learn-btn {
   border: 1px solid var(--white);
+  transition: transform 0.1s linear;
+}
+
+.learn-btn:active {
+  transform: translateY(5px);
 }
 
 /* Burger  */
