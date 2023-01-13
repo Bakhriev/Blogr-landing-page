@@ -612,8 +612,8 @@ body {
 @media screen and (max-width: 425px) {
   .right-item {
     width: 400px;
+    margin-bottom: 10px;
   }
-
 }
 
 @media screen and (max-width: 375px) {
@@ -641,7 +641,7 @@ body {
   .right-item {
     width: 350px;
     height: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
   }
 
   .section-about-title {
