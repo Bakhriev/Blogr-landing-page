@@ -609,6 +609,13 @@ body {
   }
 }
 
+@media screen and (max-width: 425px) {
+  .right-item {
+    width: 400px;
+  }
+
+}
+
 @media screen and (max-width: 375px) {
 
   /* Content-title */
@@ -632,7 +639,7 @@ body {
   }
 
   .right-item {
-    width: 400px;
+    width: 350px;
     height: 200px;
     margin-bottom: 200px;
   }
@@ -647,7 +654,7 @@ body {
 
   /* Content-title h1*/
   .content-title h1 {
-    font-size: 31px;
+    font-size: 30px;
   }
 
   .right-item {
