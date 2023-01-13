@@ -1,5 +1,6 @@
 /* Variables */
 :root {
+  --veryLightRed: hsl(356, 85%, 72%);
   --lightRed: hsl(356, 100%, 66%);
   --white: hsl(0, 0%, 100%);
 }
@@ -21,7 +22,10 @@
   white-space: nowrap;
   border-radius: 20px;
   color: var(--white);
+  transition: transform 0.3s linear, color 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
 }
+
+.btn:hover {}
 
 /* primary Btn */
 .primary-btn {
@@ -31,7 +35,21 @@
 }
 
 /* btn Hover */
-.btn-hover {
+.btn-hover:hover {
   background-color: var(--white);
   color: var(--lightRed);
+  transform: translateY(-5px);
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.4);
+}
+
+/* Btn-Primary-Hover */
+.btn-primary-hover:hover {
+  background-color: var(--veryLightRed);
+  color: var(--white);
+  transform: translateY(-5px);
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.4);
 }

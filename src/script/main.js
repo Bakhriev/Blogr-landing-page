@@ -25,6 +25,13 @@ function burgerMenu() {
 }
 burgerMenu()
 
+// const popupToggleButtons = document.querySelectorAll(".popup-menu-toggle")
+// popupToggleButtons.forEach(popuptoggle => {
+// 	popuptoggle.addEventListener("click", () => {
+// 		popuptoggle.classList.toggle("popup-menu-toggle-active")
+// 	})
+// })
+
 document.addEventListener("click", e => {
 	const isDropdownButton = e.target.matches("[data-dropdown-button]")
 

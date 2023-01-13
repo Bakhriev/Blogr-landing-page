@@ -35,6 +35,7 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* //  * Remove the border on images inside links in IE 10. */
