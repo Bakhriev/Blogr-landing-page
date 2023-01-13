@@ -475,6 +475,10 @@ body {
     align-items: center;
   }
 
+  .content-title h1 span {
+    display: block;
+  }
+
   .section-description {
     text-align: center;
   }
@@ -614,6 +618,10 @@ body {
     width: 400px;
     margin-bottom: 10px;
   }
+
+  .content-title h1 {
+    font-size: 35px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -625,7 +633,7 @@ body {
 
   /* Content-title h1*/
   .content-title h1 {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   /* Content-subtitle */
@@ -651,11 +659,6 @@ body {
 }
 
 @media screen and (max-width: 325px) {
-
-  /* Content-title h1*/
-  .content-title h1 {
-    font-size: 30px;
-  }
 
   .right-item {
     width: 350px;
