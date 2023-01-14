@@ -141,7 +141,7 @@ body {
   width: 100%;
   padding: 10px;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: hsl(217, 9%, 44%);
 }
 
@@ -336,7 +336,7 @@ body {
 }
 
 .content-subtitle p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .content-buttons {
@@ -452,7 +452,7 @@ body {
 }
 
 .section-about-title {
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 1.2;
   color: var(--veryDarkBlue);
   margin-bottom: 150px;
@@ -468,23 +468,23 @@ body {
 }
 
 .top-title {
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
 
 .top-text {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: rgb(94, 87, 87);
 }
 
 
 .bottom-title {
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
 
 .bottom-text {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: rgb(94, 87, 87);
 }
 
@@ -520,7 +520,7 @@ body {
 
 .superiority-right__title {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
 
@@ -574,7 +574,7 @@ body {
 .footer-logo {}
 
 .footer-menu__title {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .footer-menu {
@@ -637,7 +637,7 @@ body {
   }
 
   .section-about-title {
-    font-size: 60px;
+    font-size: 3.75rem;
   }
 
   .right-item {
@@ -706,16 +706,16 @@ body {
 
   /* Content-title h1 */
   .content-title h1 {
-    font-size: 50px;
+    font-size: 3.1rem;
   }
 
   /* Content-subtitle p*/
   .content-subtitle p {
-    font-size: 18px;
+    font-size: 1.1rem;
   }
 
   .section-about-title {
-    font-size: 50px;
+    font-size: 3.1rem;
   }
 
   .superiority-left {
@@ -762,12 +762,12 @@ body {
 
   /* Content-title h1 */
   .content-title h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   /* Content-subtitle */
   .content-subtitle p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .right-item {
@@ -805,12 +805,12 @@ body {
 
   /* Content-title h1 */
   .content-title h1 {
-    font-size: 42px;
+    font-size: 2.6rem;
   }
 
   /* Content-subtitle p */
   .content-subtitle p {
-    font-size: 14px;
+    font-size: 0.8rem;
   }
 
   .about {
@@ -818,7 +818,7 @@ body {
   }
 
   .section-about-title {
-    font-size: 30px;
+    font-size: 1.8rem;
   }
 
   .superiority {
@@ -847,7 +847,7 @@ body {
   }
 
   .content-title h1 {
-    font-size: 35px;
+    font-size: 2.1rem;
   }
 
   .superiority-right {
@@ -864,7 +864,7 @@ body {
 
   /* Content-title h1*/
   .content-title h1 {
-    font-size: 30px;
+    font-size: 1.8rem;
   }
 
   /* Content-subtitle */
@@ -874,7 +874,7 @@ body {
 
   /* Content-subtitle p*/
   .content-subtitle p {
-    font-size: 18px;
+    font-size: 1.1rem;
   }
 
   .right-item {
@@ -884,7 +884,7 @@ body {
   }
 
   .section-about-title {
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-bottom: 40px;
   }
 
