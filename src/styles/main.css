@@ -500,8 +500,41 @@ body {
 
 /* Section tool */
 .tool {
-  display: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 200px;
 }
+
+.tool-item {}
+
+.tool-left-item {
+  position: relative;
+  left: -120px;
+  max-width: 800px;
+}
+
+.tool-right-item {
+  max-width: 500px;
+}
+
+.tool-top {
+  margin-bottom: 40px;
+}
+
+.tool-top-title {
+  margin-bottom: 20px;
+}
+
+.tool-top-description {}
+
+.about-tool-bottom {}
+
+.tool-bottom-title {
+  margin-bottom: 20px;
+}
+
+.tool-bottom-description {}
 
 @media screen and (max-width: 1225px) {
   .right-item {
@@ -518,6 +551,12 @@ body {
 
   .superiority-left {
     max-width: 400px;
+  }
+
+  .tool-left-item {
+    position: relative;
+    left: -120px;
+    max-width: 600px;
   }
 }
 
@@ -573,6 +612,21 @@ body {
     top: -10%;
     left: 30%;
     max-width: 400px;
+  }
+
+  .tool-left-item {
+    position: relative;
+    left: 0;
+    max-width: 100%;
+  }
+
+  .tool {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tool-right-item {
+    margin-top: 80px;
   }
 }
 
@@ -703,6 +757,7 @@ body {
 
   .superiority {
     padding: 40px 15px;
+    margin-bottom: 50px;
   }
 
   .superiority-right {
