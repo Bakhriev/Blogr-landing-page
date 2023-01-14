@@ -506,7 +506,6 @@ body {
   margin-bottom: 200px;
 }
 
-.tool-item {}
 
 .tool-left-item {
   position: relative;
@@ -526,15 +525,47 @@ body {
   margin-bottom: 20px;
 }
 
-.tool-top-description {}
-
-.about-tool-bottom {}
 
 .tool-bottom-title {
   margin-bottom: 20px;
 }
 
-.tool-bottom-description {}
+/* Footer */
+.footer {
+  display: flex;
+  padding: 80px 80px;
+  background-color: var(--dark);
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 0 1 25%;
+  color: var(--white);
+}
+
+.footer-logo {}
+
+.footer-menu__title {
+  font-size: 20px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-menu__link {
+  color: var(--gray);
+  transition: color 150ms ease;
+}
+
+.footer-menu__link:hover {
+  color: var(--lightRed);
+}
+
 
 @media screen and (max-width: 1225px) {
   .right-item {
@@ -665,6 +696,15 @@ body {
     left: 25%;
     max-width: 400px;
   }
+
+  .footer {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+
+  .footer-item {
+    flex: 0 1 50%;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -762,6 +802,15 @@ body {
 
   .superiority-right {
     margin-top: 300px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-item {
+    flex: 0 1 100%;
   }
 }
 
