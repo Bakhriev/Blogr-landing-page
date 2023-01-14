@@ -2,16 +2,19 @@ function burgerMenu() {
 	const burger = document.querySelector(".burger")
 	const menu = document.querySelector(".menu")
 	const popup = document.querySelector(".popup")
+	const body = document.querySelector("body")
 
 	burger.addEventListener("click", () => {
 		if (!menu.classList.contains("menuActive")) {
 			menu.classList.add("menuActive")
 			burger.classList.add("burgerActive")
 			popup.classList.toggle("popupActive")
+			body.classList.toggle("locked")
 		} else {
 			menu.classList.remove("menuActive")
 			burger.classList.remove("burgerActive")
 			popup.classList.remove("popupActive")
+			body.classList.remove("locked")
 		}
 	})
 
@@ -20,6 +23,7 @@ function burgerMenu() {
 			menu.classList.remove("menuActive")
 			burger.classList.remove("burgerActive")
 			popup.classList.remove("popupActive")
+			body.classList.remove("locked")
 		}
 	})
 }
