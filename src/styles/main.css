@@ -295,7 +295,7 @@ body {
   }
 
   100% {
-    opacity: ;
+    opacity: 1;
     transform: translateX(0);
   }
 }
@@ -497,7 +497,6 @@ body {
   font-size: 30px;
 }
 
-.superiority-right__description {}
 
 /* Section tool */
 .tool {
@@ -703,7 +702,7 @@ body {
   }
 
   .superiority {
-    padding: 40px 5px;
+    padding: 40px 15px;
   }
 
   .superiority-right {
@@ -720,6 +719,7 @@ body {
   .content-title h1 {
     font-size: 35px;
   }
+
   .superiority-right {
     margin-top: 250px;
   }
@@ -757,6 +757,7 @@ body {
     font-size: 25px;
     margin-bottom: 40px;
   }
+
   .superiority-right {
     margin-top: 200px;
   }
@@ -766,6 +767,7 @@ body {
   .right-item {
     width: 350px;
   }
+
   .superiority-right {
     margin-top: 180px;
   }
